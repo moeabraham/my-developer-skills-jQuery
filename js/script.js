@@ -46,21 +46,9 @@ $('document').ready(function(){
         // $('.list').append('<li>' + $input)
     })
 
-    // $('ul').on('click', 'li', function() {
-    //     $(this).closest('li').remove();
-    // });
-
-    // $deleteButton.on(‘click’, function(){
-    //     const $item = $(this).closest(‘li’)
-    //     $(this).remove()
-    // })
-    // /*----- functions -----*/
-    // function displayInfo(skill){
-    //     const $li = $(`<li><button id=‘deleteButton’ class=‘deleteButton’>X</button>${skill}</li>`)
-    //     $ul.append($li)
-    // }
-    
-    
+    $('ul').on('click', 'li', function() {
+        $(this).closest('li').remove();
+    });
     // $('ul').click(function(e){
 
     //     console.log(this)
